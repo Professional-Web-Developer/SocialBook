@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kavinbook</title>
+    <link rel="logo" href="/images/logo.png">
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://kit.fontawesome.com/d5c530ac41.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <div class="nav-left">
+            <img src="/images/logo.png" alt="logo" class="logo">
+            <ul>
+                <li><img src="/images//notification.png" alt="notification"></li>
+                <li><img src="images/inbox.png" alt="inbox"></li>
+                <li><img src="/images/video.png" alt="videos"></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="/images/search.png" alt="">
+                <input type="text" placeholder="search" >
+            </div>
+            <div class="nav-user-icon online" onclick="settingsmenutoggle()">
+                <img src="/images/profile-pic.png" alt="">
+            </div>
+        </div>
+        <!-----------------settings-menu------------------>
+        <div class="settings-menu">
+            <div id="dark-btn" >
+                <span class="dark-btn-on" id="dark-btn-span"></span>
+            </div>
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="images/profile-pic.png" alt="profile">
+                    <div>     
+                        <p>jackson</p>
+                        <a href="/profile.html">See Your Profile</a>
+                    </div>  
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="images/feedback.png" alt="profile">
+                    <div>     
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to improve new design</a>
+                    </div>  
+                </div>
+                <hr>
+                <div class="setting-links">
+                    <img class="settings-icon" src="/images/setting.png" alt="">
+                    <a href="#">settings and Privacy <img src="/images/arrow.png" alt="" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img class="settings-icon" src="/images/help.png" alt="">
+                    <a href="#">Help and Support <img src="/images/arrow.png" alt="" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img class="settings-icon" src="/images/display.png" alt="">
+                    <a href="#">Display and Accessibility <img src="/images/arrow.png" alt="" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img class="settings-icon" src="/images/logout.png" alt="">
+                    <a href="#">Logout <img src="/images/arrow.png" alt="" width="10px"></a>
+                </div>
+            </div>
+            
+        </div>
+
+
+
+
+
+    </nav>
+        <div class="container">
+           <!----------left side bar---------->
+            <div class="left-sidebar">
+                <div class="imp-links">
+                    <a href="#">
+                        <img src="/images/news.png" alt="">latest news
+                    </a>
+                    <a href="#">
+                        <img src="/images/friends.png" alt="">friends
+                    </a>
+                    <a href="#">
+                        <img src="/images/group.png" alt="">group
+                    </a>
+                    <a href="#">
+                        <img src="/images/marketplace.png" alt="marketplace">latest news
+                    </a>
+                    <a href="#">
+                        <img src="/images/watch.png" alt="">watch
+                    </a>
+                    <a href="#">
+                        see more
+                    </a>
+                </div>
+                <div class="shortcuts">
+                    <p>your shortcuts</p>
+                    <a href="#"><img src="/images/shortcut-1.png" alt="">web developers</a>
+                    <a href="#"><img src="/images/shortcut-2.png" alt="">web design course</a>
+                    <a href="#"><img src="/images/shortcut-3.png" alt="">full stack development</a>
+                    <a href="#"><img src="/images/shortcut-4.png" alt="">website experts</a>
+                </div>
+            </div>
+            <!----------main content bar---------->
+            <div class="main-content">
+                <div class="story-gallery">
+                    <div class="story story5">
+                        <img src="/images/upload.png" alt="">
+                        <p>post a story</p>
+                    </div>
+                    <div class="story story1">
+                        <img src="/images/member-1.png" alt="">
+                        <p>alisa</p>
+                    </div>
+                    <div class="story story2">
+                        <img src="/images/member-2.png" alt="">
+                        <p>jackson</p>
+                    </div>
+                    <div class="story story3">
+                        <img src="/images/member-3.png" alt="">
+                        <p>john</p>
+                    </div>
+                    <div class="story story4">
+                        <img src="/images/member-4.png" alt="">
+                        <p>jack</p>
+                    </div>
+                </div>
+                <div class="write-post-container">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png" alt="profile">
+                        <div>     
+                            <p>jackson</p>
+                            <small>public <i class="fa-solid fa-sort-down"></i></small>
+                        </div>  
+                    </div>
+                    <div class="post-input-container">
+                        <textarea placeholder="what's on your mind" rows="3"></textarea>
+                        <div class="add-post-links">
+                            <a href="#"><img src="/images/live-video.png" alt="">live video</a>
+                            <a href="#"><img src="/images/photo.png" alt="">photo/video</a>
+                            <a href="#"><img src="/images/feeling.png" alt="">feeling activity</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png" alt="profile">
+                        <div>     
+                            <p>jackson</p>
+                            <span>april 01 2000,07:30 am</span>
+                        </div> 
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a> 
+                    </div>
+                    <p class="post-text">This is my first github link as a web developer <br> <span>And also i think this ia my first linked in upload project</span>.My "linked in" id is Kavin Pasupathy <a href="https://in.linkedin.com/in/kavin-pasupathy-839010289?trk=people-guest_people_search-card">Linked In Profile</a></p>
+                    <img class="post-img" src="/images/feed-image-1.png" alt="">
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="/images/like-blue.png" alt="">120</div>
+                            <div><img src="/images/comments.png" alt="">139</div>
+                            <div><img src="/images/share.png" alt="">45</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="/images/profile-pic.png" alt=""><i class="fa-solid fa-sort-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png" alt="profile">
+                        <div>     
+                            <p>jackson</p>
+                            <span>Nov 17 2023,04:05 pm</span>
+                        </div> 
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a> 
+                    </div>
+                    <p class="post-text"><span>I think this ia my first linked in upload project</span>.My "linked in" id is Kavin Pasupathy <a href="https://in.linkedin.com/in/kavin-pasupathy-839010289?trk=people-guest_people_search-card">Linked In Profile</a></p>
+                    <img class="post-img" src="/images/feed-image-2.png" alt="">
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="/images/like-blue.png" alt="">120</div>
+                            <div><img src="/images/comments.png" alt="">139</div>
+                            <div><img src="/images/share.png" alt="">45</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="/images/profile-pic.png" alt=""><i class="fa-solid fa-sort-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png" alt="profile">
+                        <div>     
+                            <p>jackson</p>
+                            <span>Nov 19 2023,09:30 am</span>
+                        </div> 
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a> 
+                    </div>
+                    <p class="post-text">This is my first github link as a web developer <br> <span>And also i think this ia my first linked in upload project</span>.My "linked in" id is Kavin Pasupathy <a href="https://in.linkedin.com/in/kavin-pasupathy-839010289?trk=people-guest_people_search-card">Linked In Profile</a></p>
+                    <img class="post-img" src="/images/feed-image-3.png" alt="">
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="/images/like-blue.png" alt="">120</div>
+                            <div><img src="/images/comments.png" alt="">139</div>
+                            <div><img src="/images/share.png" alt="">45</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="/images/profile-pic.png" alt=""><i class="fa-solid fa-sort-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <button type="button" class="load-more">Load More</button>
+                </div>
+            <!----------right side bar---------->
+            <div class="right-sidebar">
+                
+                <div class="sidebar-title">
+                    <h4>Events</h4>
+                    <a href="#">See All</a>
+                </div>
+                <div class="event">
+                    <div class="left-event">
+                        <h3>1</h3>
+                        <span>april</span>
+                    </div>
+                    <div class="right-event">
+                        <h4>social media</h4>
+                        <p><i class="fa-solid fa-location-dot"></i>erode</p>
+                        <a href="#">more</a>
+                    </div>
+                </div>
+                <div class="event">
+                    <div class="left-event">
+                        <h3>1</h3>
+                        <span>april</span>
+                    </div>
+                    <div class="right-event">
+                        <h4>social media</h4>
+                        <p><i class="fa-solid fa-location-dot"></i>erode</p>
+                        <a href="#">more</a>
+                    </div>
+
+                </div>
+                <div class="sidebar-title">
+                    <h4>Advertisement</h4>
+                    <a href="#">more</a>
+                </div>
+                <img class="sidebar-ads" src="/images/advertisement.png" alt="ad">
+                <div class="sidebar-title">
+                    <h4>Conversation</h4>
+                    <a href="#">Hide chat</a>
+                </div>
+                <div class="onlinelist">
+                    <div class="online">
+                        <img src="/images/member-1.png" alt="">
+                    </div>
+                    <p>alisa</p>
+                </div>
+                <div class="onlinelist">
+                    <div class="online">
+                        <img src="/images/member-2.png" alt="">
+                    </div>
+                    <p>john</p>
+                </div>
+                <div class="onlinelist">
+                    <div class="online">
+                        <img src="/images/member-3.png" alt="">
+                    </div>
+                    <p>jackson</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <p>&copy;Copyright 2023 - Kavin Pasupathy</p>
+        </div>
+        <script src="/script.js"></script>
+</body>
+</html>
